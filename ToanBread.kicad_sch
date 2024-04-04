@@ -4627,6 +4627,16 @@
 		)
 		(uuid "fbc358a4-5a5e-4572-ab29-69ed1744eab6")
 	)
+	(wire
+		(pts
+			(xy 38.1 185.42) (xy 40.64 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff6c69cb-3e67-42aa-ade1-e092b6e0a21b")
+	)
 	(rectangle
 		(start 21.59 90.17)
 		(end 157.48 138.43)
@@ -5803,7 +5813,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ProjectSpecific:PTN16-A20120K1B1"
 			(at 213.36 134.62 0)
 			(effects
 				(font
@@ -6867,7 +6877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 207.01 110.998 90)
 			(effects
 				(font
@@ -8352,6 +8362,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+9V")
+		(at 38.1 185.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1e4823e-36c5-40f4-a31a-1c22d069b35a")
+		(property "Reference" "#PWR016"
+			(at 41.91 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 34.29 185.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 38.1 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25844f6b-d8e5-427f-9e5d-fcfd4225327c")
+		)
+		(instances
+			(project "ToanBread"
+				(path "/d4b15b0c-595c-484d-8838-94bb74644084"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProjectSpecific:LM4562NA")
 		(at 92.71 170.18 0)
 		(unit 2)
@@ -8708,28 +8785,28 @@
 			)
 		)
 		(pin "6"
-			(uuid "c54a4bc7-e169-427d-b119-e48b9d271d10")
+			(uuid "c54a4bc7-e169-427d-b119-e48b9d271d11")
 		)
 		(pin "8"
-			(uuid "e6163078-00bd-4a1c-973b-a56d670bff8a")
+			(uuid "e6163078-00bd-4a1c-973b-a56d670bff8b")
 		)
 		(pin "5"
-			(uuid "3e3c94df-cf24-4438-ae4c-cb5560975b03")
+			(uuid "3e3c94df-cf24-4438-ae4c-cb5560975b04")
 		)
 		(pin "7"
-			(uuid "1b29bec6-a177-457f-b874-e8a56cc3f5ad")
+			(uuid "1b29bec6-a177-457f-b874-e8a56cc3f5ae")
 		)
 		(pin "4"
-			(uuid "1f58a7a5-023e-4c0d-942e-9a466b712f39")
+			(uuid "1f58a7a5-023e-4c0d-942e-9a466b712f3a")
 		)
 		(pin "2"
-			(uuid "8991cfc1-c853-42a6-907e-cbc8d9f0a751")
+			(uuid "8991cfc1-c853-42a6-907e-cbc8d9f0a752")
 		)
 		(pin "3"
-			(uuid "89a929ef-7e8c-4d37-8178-03fab0bd4f07")
+			(uuid "89a929ef-7e8c-4d37-8178-03fab0bd4f08")
 		)
 		(pin "1"
-			(uuid "fa620696-ceff-4f30-969f-3d84c6bec3e1")
+			(uuid "fa620696-ceff-4f30-969f-3d84c6bec3e2")
 		)
 		(instances
 			(project "ToanBread"
